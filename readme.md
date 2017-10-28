@@ -22,15 +22,26 @@ For more information, [see](https://en.wikipedia.org/wiki/Cryptocurrency)
 
 1) After you have set up the python code, you need to send a POST request of transferring iCoins to someone.
 
-<img src="https://github.com/akshaybahadur21/iCoin-CryptoCurrency/blob/master/setup.gif">
+```
+curl "localhost:5000/request_transaction" \
+     -H "Content-Type: application/json" \
+     -d '{"from": "Akshay", "to":"Raghav", "amount": 10}'
+	 
+```
 
-<img src="https://github.com/akshaybahadur21/iCoin-CryptoCurrency/blob/master/post.png">
+2) Now mine the block for verification by send a GET request.
 
-2) Now mine the block for verification by send a GET request
+```
+curl localhost:5000/mine
+	 
+```
 
-<img src="https://github.com/akshaybahadur21/iCoin-CryptoCurrency/blob/master/mine.png">
+3) You can check all the blocks by sending a GET request.
 
-3) You can check all the blocks by sending a get request to '/blocks'
+```
+curl localhost:5000/blocks
+	 
+```
 
 
 ### Execution

@@ -22,7 +22,7 @@ For more information, [see](https://en.wikipedia.org/wiki/Cryptocurrency)
 
 1) After you have set up the python code, you need to send a POST request of transferring iCoins to someone.
 
-<img src="https://github.com/akshaybahadur21/iCoin-CryptoCurrency/blob/master/setup.png">
+<img src="https://github.com/akshaybahadur21/iCoin-CryptoCurrency/blob/master/setup.gif">
 
 <img src="https://github.com/akshaybahadur21/iCoin-CryptoCurrency/blob/master/post.png">
 

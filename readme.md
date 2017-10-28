@@ -11,14 +11,14 @@ The example code is in Python ([version 2.7](https://www.python.org/download/rel
 
 A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency. Cryptocurrencies are classified as a subset of digital currencies and are also classified as a subset of alternative currencies and virtual currencies.
 
-####Concepts
+#### Concepts
 
 1) [Proof-of-Work Algorithm](https://en.wikipedia.org/wiki/Proof-of-work_system)
 2) [Concensus Algorithm](https://en.wikipedia.org/wiki/Consensus_(computer_science))
 
 For more information, [see](https://en.wikipedia.org/wiki/Cryptocurrency)
 
-###Steps
+### Steps
 
 1) After you have set up the python code, you need to send a POST request of transferring iCoins to someone.
 

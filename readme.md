@@ -47,5 +47,5 @@ curl localhost:5000/blocks
 To run the code, type `python iCoin.py`
 
 ```
-python block_chain.py
+python iCoin.py
 ```
